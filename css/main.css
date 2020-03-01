@@ -94,6 +94,13 @@ a {
   width: 150px;
 }
 
+.button-reservation {
+  color: #ffffff;
+  background-color: #fcb371;
+  margin: 0 5px;
+  width: 150px;
+}
+
 .about {
   margin-top: 2em;
 }
