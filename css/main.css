@@ -38,6 +38,7 @@
   font-size: 48px;
   text-align: center;
   color: #ffffff;
+  padding: 0 1em;
 }
 
 .title-orange {
@@ -46,6 +47,7 @@
   font-size: 48px;
   text-align: center;
   font-weight: normal;
+  padding: 0 1em;
 }
 
 a {
@@ -61,17 +63,14 @@ a {
 }
 
 .icon {
-  display: block;
+  margin: 1em;
 }
-
-/* a {
-  text-decoration: none;
-} */
 
 .button-group,
 .form-group {
   display: flex;
   justify-content: center;
+  padding: 0 1em;
 }
 
 .button-group {
@@ -101,10 +100,6 @@ a {
   width: 150px;
 }
 
-.about {
-  margin-top: 2em;
-}
-
 .overlay {
   background: rgba(42, 38, 61, 0.82);
   width: 100%;
@@ -112,11 +107,7 @@ a {
   position: fixed;
 }
 
-.icon {
-  padding: auto;
-}
-
 .back {
-  margin: 40px;
+  margin: 3em;
   position: absolute;
 }

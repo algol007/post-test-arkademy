@@ -9,11 +9,15 @@
 }
 
 .content-about {
+  max-width: 750px;
   font-family: "SF Pro Display";
   color: #ffffff;
   font-size: 28px;
   text-align: center;
-  padding: 20px 100px;
-  /* margin: 20px; */
+  padding: 2em 1em;
   position: relative;
+}
+
+.about {
+  margin-top: 2em;
 }
