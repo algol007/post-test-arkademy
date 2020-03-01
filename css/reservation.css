@@ -1,0 +1,49 @@
+.bg-reservation {
+  background-image: url("../img/bg2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  z-index: -1;
+}
+
+.form-reservation {
+  max-width: 450px;
+  margin: auto;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 6px;
+  border: none;
+  font-family: "SF Pro Display";
+  font-size: 12px;
+  background: #ffffff;
+  color: #a9a9a9;
+}
+
+::placeholder {
+  color: #a9a9a9;
+}
+
+form {
+  margin-top: 4em;
+  padding: 0 2em;
+}
+
+.button-submit {
+  background-color: #fcb371;
+  color: #ffffff;
+}
+
+.input1 {
+  margin-right: 5px;
+}
+.input2 {
+  margin-left: 5px;
+}

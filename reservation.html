@@ -4,43 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reservation</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <div class="overlay"></div>
-    <div class="bg-reservation"></div>
-    <a href="./index.html">
-      <img src="./img/back.png" alt="Back" class="back" />
-    </a>
-    <div class="container">
-      <div class="form-reservation">
-        <h1 class="title-orange">Reservation</h1>
-        <form action="">
-          <div class="form-group">
-            <input type="text" placeholder="Input your name" />
-          </div>
-          <div class="form-group">
-            <input type="text" placeholder="Input your email" />
-          </div>
-          <div class="form-group">
-            <input type="text" placeholder="Phone number" />
-            <select name="" id="">
-              <option value="">Select your nationality</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <textarea
-              name=""
-              id=""
-              cols="30"
-              rows="10"
-              placeholder="Explain about your trip"
-            ></textarea>
-          </div>
-          <div class="form-group">
-            <input type="submit" value="Submit" class="button button-submit" />
-          </div>
-        </form>
+    <div class="bg-reservation">
+      <div class="overlay"></div>
+      <a href="./index.html">
+        <img src="./img/back.png" alt="Back" class="back" />
+      </a>
+      <div class="container">
+        <div class="form-reservation">
+          <h1 class="title-orange">Reservation</h1>
+          <form action="">
+            <div class="form-group">
+              <input type="text" placeholder="Input your name" />
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Input your email" />
+            </div>
+            <div class="form-group">
+              <input class="input1" type="text" placeholder="Phone number" />
+              <select class="input2" name="" id="">
+                <option value="">Select your nationality</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Explain about your trip"
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <input type="submit" class="button button-submit" />
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </body>
